@@ -19,7 +19,7 @@ COPY . .
 ENV ANTHROPIC_API_KEY=your_api_key_here
 
 # Expose the port that the server will run on
-EXPOSE 8080
+EXPOSE 8081
 
 # Default command to run the server
 CMD ["uv", "run", "weather.py"]
